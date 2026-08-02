@@ -56,4 +56,4 @@ y = ((p_4326.y - min_lat) / step_lat) % 1
 T = (1-x)*(1-y)*raf20[n][p][2] + x*(1-y)*raf20[n+1][p][2] + y*(1-x)*raf20[n][p+1][2]  + x*y*raf20[n+1][p+1][2] 
 
 print("Valeur interpolée " + str(T))
-print("Hauteur au dessus de l'ellispoide " + str(z+T))
+print("Hauteur au dessus de l'ellipsoïde " + str(z+T))
